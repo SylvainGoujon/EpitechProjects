@@ -1,0 +1,9 @@
+.nav-link {
+    color: #FFC95F;
+}
+.nav-link:hover {
+    color: orange;
+}
+.nav-tabs .nav-link.active {
+    color: #ff8120;
+}

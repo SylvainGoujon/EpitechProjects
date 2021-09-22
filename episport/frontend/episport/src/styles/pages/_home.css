@@ -1,0 +1,96 @@
+
+.BackgroundImageSection
+{
+    background-image: url(../../assets/img/episport-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vw;
+}
+
+
+.AreaForSearchBar
+{
+    padding:1vw;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+
+
+.SectionPourCarreDeCategorie
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 36%;
+}
+@media (max-width: 900px){
+    .SectionPourCarreDeCategorie
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        justify-content: center;
+        padding-top: 25%; 
+    }
+
+}
+
+
+
+.HomePageTitleCategorieMesFavoris
+{
+    color: #FF8120;
+    font-size:large;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 12vw;
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.HomePageTitleCategorie
+{
+    color: #FF8120;
+    font-size:large;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+.SectionForVideos
+{
+    width: 100%;
+    height: auto;
+    background: white;
+    
+}
+
+
+.DivForVideos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-bottom: 2vw;
+
+}
+@media (max-width: 900px){
+    .DivForVideos
+    {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 2vw;
+    gap:2vw;
+    }
+
+}

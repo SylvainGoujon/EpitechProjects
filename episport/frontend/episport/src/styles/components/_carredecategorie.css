@@ -1,0 +1,20 @@
+.CarreDeCategorie
+{
+    min-width:14vw;
+    height: 14vw;
+    width: auto;
+    background: #333333;
+    border-radius: 10px;
+    margin: 1vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 14vw;   
+}
+
+.CarreDeCategorieName
+{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}

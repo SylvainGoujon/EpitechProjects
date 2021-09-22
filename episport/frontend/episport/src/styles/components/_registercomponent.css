@@ -1,0 +1,60 @@
+#registerTitle
+{
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+.RegisterComponentArea
+{
+  width : 446px;
+  height: auto;
+  border-radius: 15px;
+  background-color: #333333;
+  padding: 1vw;
+  margin: auto auto;
+}
+
+.RegisterComponentSecondArea
+{
+  margin-top: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  width : 400px;
+  height: auto;
+  border-radius: 15px;
+  background-color:#333333;
+  padding-left: auto;
+  padding-right: auto;
+  padding: 1vw;
+}
+
+#FormControlInput1, #FormControlInput2, #FormControlInput3, #FormControlInput4
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:1.5vw;
+  width: 85%;
+  border-radius: 15px;
+  padding: 1vw;
+}
+
+#SubmitRegisterButton
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:1.5vw;
+  width: 85%;
+  border-radius: 15px;
+  padding: 1vw;
+  color: white;
+  background-color: #FF8120;
+  border:none;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}

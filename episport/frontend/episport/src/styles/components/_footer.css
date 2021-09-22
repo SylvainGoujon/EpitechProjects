@@ -1,0 +1,120 @@
+.FooterComponentFirstArea
+{
+    background-color:#333333;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+    padding-top:3vw;
+    padding-bottom: 5vw;
+}
+
+#svgFacebook, #svgTwiter, #svgInsta
+{
+    margin-left: 5vw;
+}
+
+.FooterComponentSecondArea
+{
+    height: auto;
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+
+.LeftSection
+{
+    background-color: #333333;
+    padding-left: 5vw;
+    color:white;
+    font-family: sans-serif;
+    font-size:small;
+    line-height: 70%;
+    
+    
+
+
+}
+.RightSection
+{
+    background-color: #333333;
+    padding-right: 5vw;
+    color:white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#NousContacterCss
+{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.FooterComponentThirdArea
+{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:white;
+    font-family: sans-serif;
+    font-size: small;
+    height: auto;
+    padding-top:1vw;
+}
+
+@media (max-width: 650px){
+
+    .FooterComponentSecondArea
+    {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .LeftSection
+    {
+        background-color: #333333;
+        padding-left: 0vw;
+        color:white;
+        font-family: sans-serif;
+        font-size:small;
+        line-height: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 3vw;
+    }
+    .RightSection
+    {
+        background-color: #333333;
+        padding-right: 0vw;
+        color:white;
+        font-family: sans-serif;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 3vw;
+    }
+
+
+    .FooterComponentFirstArea
+    {
+    background-color:#333333;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0vw;
+    padding-top:3vw;
+    padding-bottom: 5vw;
+    }
+    
+
+    #svgFacebook, #svgTwiter, #svgInsta
+    {
+    margin-left: 5vw;
+    }
+
+}

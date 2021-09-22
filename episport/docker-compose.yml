@@ -1,0 +1,55 @@
+version: '3.7'
+
+services:
+
+  app-database:
+    image: mariadb
+    container_name: app-database
+    env_file:
+      - ./database/database.env
+    volumes:
+      - ./database/backup:/var/lib/mysql
+    networks:
+      episport-network:
+        aliases:
+          - app-database
+    expose:
+      - 3306
+    ports:
+      - '3306:3306'
+    command: mysqld --default-authentication-plugin=mysql_native_password --max_allowed_packet=1073741824
+ 
+  app-backend:
+    depends_on: 
+      - app-database
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: app-backend
+    networks:
+      episport-network:
+        aliases:
+          - app-backend
+    expose:
+      - 5000
+    ports:
+      - '5000:3000'
+
+  app-frontend:
+    image: app-frontend:latest
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: app-frontend
+    networks:
+      episport-network:
+        aliases:
+          - app-frontend
+    expose:
+      - 8080
+    ports:
+      - '8080:80'
+
+networks:
+  episport-network:
+    driver: bridge

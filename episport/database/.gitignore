@@ -1,0 +1,6 @@
+#MYSQL backup folder
+backup/*
+!backup/.gitkeep
+
+#Environnement variables
+*.env

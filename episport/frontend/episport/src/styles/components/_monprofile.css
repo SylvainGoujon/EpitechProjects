@@ -1,0 +1,19 @@
+.mon-profile {
+    color: #ff8120;
+}
+
+hr.mon-profile {
+    width: 40px;
+    height: 2px;
+
+}
+
+/* Element set: */
+#modif {
+    background-color: #ff8120;
+    border-color: #ff8120;
+    color: #fff;
+}
+#modif:hover {
+    background-color: #FFC95F;
+}

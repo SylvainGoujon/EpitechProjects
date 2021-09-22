@@ -1,0 +1,12 @@
+.btn {
+    width: 160px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #333333;
+    border: none;
+}
+.btn:hover {
+    color: orange;
+}
